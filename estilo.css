@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('ChatOn image.jpg');
+  background-size: cover;
+  background-position: center;
+}
+h1 {
+  color: #fff; /* Cor branca */
+  text-align: center; /* Alinha o texto ao centro */
+  font-size: 48px; /* Tamanho da fonte */
+  margin-top: 100px; /* Margem superior para espaçamento */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para destaque */
+}
+
+h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 36px;
+  margin-top: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.citacao {
+  color: #f436b1;
+  font-style: italic;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 18px;
+}
+/* Estilos gerais para o container */
+.container {
+  text-align: center; /* Centraliza os elementos */
+  margin-top: 10px; /* Ajusta a margem superior */
+  color: #ffffff;
+  font-style: oblique;
+}
+
+/* Estilos para o campo de texto */
+input[type="text"] {
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgb(162, 162, 162);
+  font-size: 16px;
+  width: 300px; /* Ajusta a largura conforme necessário */
+  text-align: center;
+}
+
+/* Estilos para o botão */
+button {
+  background-color: #ff0080; /* Cor rosa vibrante */
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+  background-color: #f83c94ee; /* Cor de fundo do rodapé */
+  color: #ffffff; /* Cor do texto */
+  text-align: center; /* Alinha o texto ao centro */
+  padding: 0; /* Espaçamento interno */
+  width: 100%; /* Largura total da página */
+  position: absolute; /* Posiciona o rodapé */
+  bottom: 0; /* Alinha ao fundo da página */
+  font-size: 1rem; /* Tamanho da fonte */
+}
